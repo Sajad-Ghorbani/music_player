@@ -29,8 +29,6 @@ class MyAudioHandler extends BaseAudioHandler {
     try {
       await _player.setAudioSource(_playlist);
     } catch (e) {
-      print(
-          '********************************************************************');
       print("Error: $e");
     }
   }
